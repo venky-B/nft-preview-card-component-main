@@ -22,17 +22,11 @@ body {
   padding: 20px;
   border-radius: 10px;
   width: 350px;
-}
-
-/* main {
-  transform: scale(0.8);
-} */
-
-section {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .price-time {
   display: flex;
   justify-content: space-between;
@@ -102,16 +96,55 @@ p {
 }
 
 .main-img {
-  border-radius: 10px;
+  position: relative;
+}
+
+.main-img .equilibrium {
+  width: 100%;
+  height: 100%;
+}
+
+.main-img .bluebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: calc(100% - 4px);
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: hsl(178, 100%, 50%, 60%);
+  opacity: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.main-img .bluebox:hover {
+  opacity: 1;
 }
 
 h1 {
   letter-spacing: 1px;
+  text-decoration: none;
+}
+h1:hover {
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+p span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 425px) {
   .container {
     width: 325px;
     height: 550px;
+  }
+  body {
+    max-width: 425px;
+    height: 100vh;
   }
 }
