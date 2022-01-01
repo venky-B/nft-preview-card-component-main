@@ -12,7 +12,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  min-width: 100vh;
   background-color: hsl(217, 54%, 11%);
   flex-direction: column;
 }
@@ -142,11 +141,6 @@ p span:hover {
   .container {
     width: 325px;
     height: 550px;
-  }
-  body {
-    max-width: 100%;
-    overflow: hidden;
-    margin: 0;
   }
   .main-img .bluebox {
     height: 100%;
