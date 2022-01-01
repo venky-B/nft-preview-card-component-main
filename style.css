@@ -96,6 +96,8 @@ p {
 
 .main-img {
   position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .main-img .equilibrium {
