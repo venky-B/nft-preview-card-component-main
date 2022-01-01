@@ -144,7 +144,10 @@ p span:hover {
     height: 550px;
   }
   body {
-    max-width: 425px;
+    max-width: 400px;
     height: 100vh;
+  }
+  .main-img .bluebox {
+    height: 100%;
   }
 }
