@@ -24,9 +24,9 @@ body {
   width: 350px;
 }
 
-main {
+/* main {
   transform: scale(0.8);
-}
+} */
 
 section {
   display: flex;
@@ -111,15 +111,7 @@ h1 {
 
 @media only screen and (max-width: 425px) {
   .container {
-    margin: 20px;
+    width: 325px;
+    height: 550px;
   }
-
-  main {
-    transform: scale(1);
-  }
-
-  /* .body {
-    max-height: 100vh;
-    max-width: 100vh;
-  } */
 }
